@@ -75,6 +75,9 @@ function App() {
         <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated }}>
           <Routes />
         </AppContext.Provider>
+        <footer className="footer">
+          &copy; Sandy Miao 2023
+        </footer>
       </div>
     )
   );
